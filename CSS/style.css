@@ -12,7 +12,7 @@ body{
     flex-direction: row;
     margin: 30px auto;
     width: 60%;
-    height: 600px;
+    height: 700px;
     box-shadow: 10px 10px 20px grey;
 }
 
@@ -64,11 +64,11 @@ h2{
 
 #container{
     display: flex;
-    width: 50%;
-    height: 100px;
-    margin-top: 100px auto;
+    justify-content: space-evenly;
     flex-direction: row;
-    justify-content: space-between;
+    width: 60%;
+    height: 100px;
+    margin: 30px auto;   
 }
 
 .thumbnail{
@@ -97,10 +97,13 @@ h2{
   padding: 2px;
   margin: 0px;
   top: 30px;
-  left: -70px;
-  width: 100px;
-  height: 20px;
+  left: -80px;
+  white-space: nowrap;
+  /*width: 100px;*/
+  padding: 10px;
+  height: 24px;
   text-align: center;
+  vertical-align: middle;
   z-index: 1;
 }
 

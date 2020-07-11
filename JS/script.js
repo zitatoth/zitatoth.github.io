@@ -101,7 +101,7 @@ $(".thumbnail").click(() =>{
   
 });
 
-$(".img-title").click(() => {
+$(".thumbnail").mouseenter(() => {
   let targetImage = $(event.target);
 
   $(".thumbnail").removeClass("highlight");
