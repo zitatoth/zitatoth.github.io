@@ -12,7 +12,7 @@ body{
     flex-direction: row;
     margin: 30px auto;
     width: 60%;
-    height: 700px;
+    /*height: 700px;*/
     box-shadow: 10px 10px 20px grey;
 }
 
@@ -66,7 +66,7 @@ h2{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    width: 60%;
+    width: 80%;
     height: 100px;
     margin: 30px auto;   
 }
@@ -95,11 +95,11 @@ h2{
   border: 2px solid black;
   border-radius: 3px;
   padding: 2px;
-  margin: 0px;
+  margin: 0px auto;
   top: 30px;
   left: -80px;
   white-space: nowrap;
-  /*width: 100px;*/
+  width: 80px;
   padding: 10px;
   height: 24px;
   text-align: center;

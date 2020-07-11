@@ -101,11 +101,16 @@ $(".thumbnail").click(() =>{
   
 });
 
-$(".thumbnail").mouseenter(() => {
+$(".img-title").click(() =>{ 
+  let targetH5 = $(event.target);
+  
+  loadPhoto($(targetH5).prev("img").attr('data-number'));
+  
+});
+
+$(".thumbnail").mouseover(() => {
   let targetImage = $(event.target);
 
-  $(".thumbnail").removeClass("highlight");
-  $(targetImage).addClass("highlight");
-  loadPhoto($(event.target).attr('data-number'));
+  $(targetImage).next("h5").fadeIn(200);
 
 });
