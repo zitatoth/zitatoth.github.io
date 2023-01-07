@@ -58,6 +58,10 @@ h2{
     height: 100%;
 }
 
+#rightarrow, #leftarrow {
+    width: 50%;
+}
+
 #rightarrow{
     transform: scaleX(-1);
 }
